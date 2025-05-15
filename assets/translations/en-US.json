@@ -1,0 +1,14 @@
+{
+  "login": {
+    "welcome": "Welcome",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "or use": "Or use",
+    "signInWith": "Sign in with {sso}"
+  },
+  "newsList": {
+    "hotTopic": "Hot Topic",
+    "lastestNews": "Latest News"
+  }
+}
