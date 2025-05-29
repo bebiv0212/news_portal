@@ -16,19 +16,9 @@ class NewsApi {
           return http.Response(e.toString(), 400);
         });
 
-    if (result.statusCode != 200) {
-      return null;
-    }
-
     final body = result.body;
     final bodyJson = jsonDecode(body);
-    Log.green(bodyJson);
-
     final List<dynamic> newsRaw = bodyJson['news'];
-
-    Log.blue(newsRaw);
-
-    List<NewsData> newsList = [];
 
     /*1번째 방법법 
     for(var i = 0; i< newsRaw.length; i++){
