@@ -4,5 +4,8 @@ class ApiConfig {
 
   static final auth = (login: '$funcUrl/auth/get-token');
 
-  static final news = (getList: '$funcUrl/news');
+  static final news = (
+    getTopic: '$funcUrl/news/topic', //
+    getIssue: '$funcUrl/news/issue',
+  );
 }
